@@ -5,6 +5,12 @@ metadata:
 spec:
   enforcementAction: deny
   match:
+    excludedNamespaces:
+      - kube-system
+      - gatekeeper-system
+      - config-management-monitoring
+      - config-management-system
+      - asm-system
     kinds:
       - apiGroups:
           - ""
