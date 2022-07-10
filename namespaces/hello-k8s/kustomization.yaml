@@ -1,5 +1,5 @@
 helmCharts:
-- name: deploy/helm/hello-kubernetes
+- name: hello-kubernetes
   releaseName: hello-kubernetes
   namespace: hello-k8s
 
