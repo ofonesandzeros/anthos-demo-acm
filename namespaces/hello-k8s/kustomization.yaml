@@ -1,6 +1,0 @@
-namespace: hello-k8s
-helmCharts:
-- name: hello-kubernetes
-  releaseName: hello-kubernetes
-
-
