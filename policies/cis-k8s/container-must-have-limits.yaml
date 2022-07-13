@@ -11,6 +11,7 @@ spec:
       - config-management-monitoring
       - config-management-system
       - asm-system
+      - gke-connect
     kinds:
       - apiGroups:
           - ""
